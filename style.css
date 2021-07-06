@@ -120,7 +120,7 @@ span a span {
   border: 15px solid white;
   border-radius: 15px;
   box-shadow: 2px 5px 10px #0f0c0c;
-  height: 450px;
+  height: 380px;
   margin-bottom: 2rem;
 }
 
@@ -136,6 +136,12 @@ span a span {
 
 footer {
   padding: 1rem;
-  background-color: #0000;
+  background-color: #000000;
   text-align: center;
+  color: white;
+  font-size: 1.5rem;
+}
+
+footer p span {
+  color: #d36002;
 }
