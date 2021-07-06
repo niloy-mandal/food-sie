@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  background: #e9d6d6;
+}
+
+nav a {
+  font-weight: 700;
+  font-size: 2rem;
+  padding: 0.5rem 1.5rem;
+  text-decoration: none;
+  color: #2e1e14;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+
+.bone {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 70vh;
+}
+
+.content {
+  padding: 1rem 0;
+  width: 44%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.content h1 {
+  font-size: 3rem;
+  padding: 1rem 0;
+}
+h2 {
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+.content p {
+  padding-top: 2rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+h1 span {
+  color: brown;
+}
+
+.bone .photo {
+  width: 44%;
+  height: 100%;
+  position: relative;
+}
+
+.photo img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.photo img {
+  width: 100%;
+}
+
+.btn {
+  background-image: linear-gradient(salmon, tomato);
+  padding: 0.85rem 1.2rem;
+  border-radius: 40px;
+  text-decoration: none;
+  color: white;
+  margin-top: 35px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+span a span {
+  color: #d36002;
+}
+
+#about {
+  background-image: url(./images/shapes/7.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.imag {
+  display: flex;
+  justify-content: space-around;
+}
+
+.imag img {
+  object-position: center;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.items {
+  width: 25%;
+  border: 15px solid white;
+  border-radius: 15px;
+  box-shadow: 2px 5px 10px #0f0c0c;
+  height: 450px;
+  margin-bottom: 2rem;
+}
+
+#menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#menu p {
+  padding-bottom: 1rem;
+}
+
+footer {
+  padding: 1rem;
+  background-color: #0000;
+  text-align: center;
+}
